@@ -36,6 +36,7 @@ def multiply(n1, n2):
     return n1 * n2
 
 def calculator():
+  clear()
   print(logo)
 
   operators = {"+": add, "-": subtract, "*": multiply, "/": divide}
