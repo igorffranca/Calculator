@@ -64,7 +64,7 @@ def calculator():
     second_answer = operators[operator](first_answer, num3)
     print(f"{first_answer} {operator} {num3} = {second_answer}")
   
-    continue_calculation = input(f"Type 'y' to continue calculating with {second_answer}, or type 'n' to start a new calculation: ").lower().strip()
+    continue_calculation = input(f"\nType 'y' to continue calculating with {second_answer}, or type 'n' to start a new calculation: ").lower().strip()
     if continue_calculation == "y":
       first_answer = second_answer
     else:
